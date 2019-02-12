@@ -1,0 +1,16 @@
+
+    added on 12-02-2019:
+    -Create a single common script file for both master and slave computers
+    -Allow toggle of control inputs between master and slave, the toggle button (on the master computer) should:
+      Slave: Enable the physics model
+      Master: Disable the physics model
+      Slave: Stop setting aircraft position, attitude, velocities from the master
+      Master: Set aircraft position, attitude, velocities from the slave
+
+    -Untoggling the switch should perform the above but in reverse
+    -Create a GUI for the toggle button, Slave/Master IP address and Ports input box, connect button
+    -Sync the engine on/off state
+    -Sync the cockpit/autopilot switches
+    -Optimise for speed - cut down precision of variables, code cleanup
+    -Write an instruction manual 
+    -Required dependencies
